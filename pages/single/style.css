@@ -86,5 +86,19 @@
     margin-bottom: 26px;
 }
 @media screen and (max-width:320px){
-
+    .main__image {
+        max-width: 269px;
+    }
+    .image_mini {
+        max-width: 62px;
+    }
+    .image_mini:nth-child(4) {
+        display: none;
+    }
+    .text__desc{
+        margin-bottom: 46px;
+    }
+    .main__btn{
+        margin-bottom: 46px;
+    }
 }
