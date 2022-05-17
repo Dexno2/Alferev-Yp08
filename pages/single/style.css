@@ -3,31 +3,31 @@
 @import url(../../assetes/css/fonts.css);
 @import url(../../assetes/css/normalize.css);
 @import url(../home/style.css);
-.main {
+.main{
     margin-top: 42px;
     display: flex;
     justify-content: flex-start;
 }
-.main__desc {
+.main__desc{
     max-width: 460px;
     margin-right: 30px;
 }
-.main__image {
+.main__image{
     max-width: 460px;
     height: auto;
     object-fit: cover;
     margin-top: 25px;
     margin-bottom: 16px;
 }
-.main__image-mini {
+.main__image-mini{
     display: flex;
     max-width: 360px;
     gap: 5px;
 }
-.image_mini {
+.image_mini{
     object-fit: cover;
 }
-.text__desc {
+.text__desc{
     margin-top: 30px;
     max-width: 390px;
     font-family: 'Roboto';
@@ -37,7 +37,7 @@
     line-height: 140%;
     color: #0A143A;
 }
-.user__name {
+.user__name{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -45,7 +45,7 @@
     line-height: 16px;
     color: #0A143A;
 }
-.user__op {
+.user__op{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -53,14 +53,14 @@
     line-height: 14px;
     color: #0A143A;
 }
-.user__desc {
+.user__desc{
     margin-right: 74px;
 }
-.user {
+.user{
     display: flex;
     margin-bottom: 30px;
 }
-.main__button {
+.main__button{
     width: 264px;
     height: 54px;
     border: 0;
@@ -84,4 +84,7 @@
 }
 .adv2{
     margin-bottom: 26px;
+}
+@media screen and (max-width:320px){
+
 }
