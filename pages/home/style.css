@@ -93,3 +93,41 @@ a{
     line-height: 16px;
     color: #0A143A;
 }
+@media screen and (max-width:320px) {
+    .container {
+        max-width: 270px;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .search__text{
+        display: none;
+    }
+    .header__navigation {
+        display: none;
+    }
+    .header__login {
+        display: none;
+    }
+    .header__slider {
+        display: block;
+        margin-top: 12px;
+    }
+    .cards__two {
+        display: none;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .rec {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #0A143A;
+    }
+    .main__services{
+        width: 100%;
+    }
+}
