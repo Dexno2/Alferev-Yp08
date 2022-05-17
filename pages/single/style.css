@@ -8,7 +8,7 @@
     display: flex;
     justify-content: flex-start;
 }
-.main__desc{
+.main__desc {
     max-width: 460px;
     margin-right: 30px;
 }
@@ -36,4 +36,52 @@
     font-size: 14px;
     line-height: 140%;
     color: #0A143A;
+}
+.user__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0A143A;
+}
+.user__op {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0A143A;
+}
+.user__desc {
+    margin-right: 74px;
+}
+.user {
+    display: flex;
+    margin-bottom: 30px;
+}
+.main__button {
+    width: 264px;
+    height: 54px;
+    border: 0;
+    color: white;
+    background-color: #256EEB;
+    border-radius: 5px;
+    margin-bottom: 14px;
+}
+.main__button:hover{
+    cursor: pointer;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+.main__btn{
+    background: #14B4BE;
+}
+.main__seller{
+    margin-right: 128px;
+}
+.adv2{
+    margin-bottom: 26px;
 }
